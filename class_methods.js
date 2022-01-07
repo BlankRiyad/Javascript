@@ -9,11 +9,15 @@ class VirtualPet {
         this.weight = weight;
     }
 
-    eat () {
-        console.log("nom nom");
+    eat (food) {
+        if (food === "treats"){
+            console.log("nom nom");
+        } else {
+            console.log("Discard");
+        }
     }
 }
 
 var pet1 = new VirtualPet("Cat", 5);
-pet1.eat();
+pet1.eat("treats");
 console.log(pet1);
