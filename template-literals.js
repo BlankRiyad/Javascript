@@ -7,3 +7,4 @@ let latest = `Startek`;
 let movies = `${old}, ${latest}`;
 
 console.log(movies);
+
