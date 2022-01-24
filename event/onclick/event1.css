@@ -1,0 +1,10 @@
+.item {
+    background-color: skyblue;
+    height: 100px;
+    width: fit-content;
+    padding: 20px;
+}
+
+.pink {
+    background-color: pink;
+}
