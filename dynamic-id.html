@@ -1,0 +1,24 @@
+<!-- To tell the elements how to respond to, we need a way of
+interacting with them. The first step is to giving a ID name. Way of  Accessing a ID is 
+"document.getElementByID("ID name").innerHTML = 'after setting'"
+where first part is to access and .innerHTML part is to change value.  -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<p id="tweet">
+    <em>What's up?</em>
+</p>
+<p id="message">New Message</p>
+<script>
+    document.getElementById("message").innerHTML = "No Message";
+</script>
+</body>
+</html>

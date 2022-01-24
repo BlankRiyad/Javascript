@@ -1,0 +1,25 @@
+<!-- We can create element by coding document.createElement("element tag name")
+and we can give value by coding .innerHTML = 
+and then nest it in any element by accessing desired element by ID name.
+then we can push the element by coding .appendchild() method.
+We can also use .removeChild() for removing any element.-->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id = "parent">
+    <script>
+        var bodyElement = document.getElementById("parent");
+        var paragraph = document.createElement("p");
+        paragraph.innerHTML = "Joe Football";
+        bodyElement.appendChild(paragraph);
+    </script>
+</body>
+</html>
