@@ -19,4 +19,4 @@ var v = [v1, v2, v3];
 
 
 
-printName.apply(sakib, v)
+printName.apply(sakib, v);
