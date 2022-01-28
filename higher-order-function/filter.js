@@ -14,14 +14,27 @@ console.log(canDrink);
 
 /* Using filter method! */
 
-const eligible = ages.filter((age) => {
-    if(age >= 21) {
-        return true;
-    }
-});
+// const eligible = ages.filter((age) => {
+//     if(age >= 21) {
+//         return true;
+//     }
+// });
 
 
-/* more shorter form of this code
-const eligible = ages.filter(age => age >= 21);
- */
-console.log(eligible);
+const eligibility = ages
+.filter(age => age >= 21);
+
+console.log(eligibility);
+
+
+// /* map method of this code
+// ages.map(age => age >= 21);
+// we can combine filter output with map method. */
+
+// /* more shorter form of this code  */
+// const eligible = ages
+// .filter(age => age >= 21)
+// .map(age => ({Adult: age}))
+// .filter(obj => obj.Adult >= 30);
+
+// console.log(eligible);

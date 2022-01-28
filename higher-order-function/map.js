@@ -5,6 +5,9 @@ let biggerArray = [
     {name:"Bob", email:"bob32@gmail.com", age:41}   
 ];
 
-const textMap = biggerArray.map(medicine =>  `${medicine.name} is ${medicine.age} years old and his email-address: ${medicine.email}`);
+const textMap = biggerArray
+.map(medicine =>  `${medicine.name} is ${medicine.age} years old and his email-address: ${medicine.email}`);
 
 console.log(textMap);
+
+
