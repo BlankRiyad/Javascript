@@ -1,0 +1,48 @@
+body {
+    background-color: gray;
+}
+
+
+header {
+    background-color: rgb(49, 56, 146);
+    margin: 4px;
+    width: 800px;
+}
+h1 {
+    color: rgb(90, 84, 4);
+    font-size: 70px;
+}
+
+main {
+    background-color: lightslategrey;
+    padding: 2px;
+    border: rgb(95, 7, 51) solid 5px;
+    border-bottom-style: ridge;
+    margin: 7px;
+    width: 800px;
+}
+
+.para {
+    color: rgb(55, 12, 141);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.head3 {
+    color: midnightblue;
+    font-size: 40px;
+}
+
+h2 {
+    color: orange;
+    font-size: 60px;
+}
+
+footer {
+    background-color: rgb(83, 70, 75);
+    margin: 4px;
+    padding: 2px;
+}
+
+.fpara {
+    text-align: center;
+}
