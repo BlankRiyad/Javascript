@@ -9,7 +9,7 @@ import Maincontent from "./Maincontent"
 
 
 
-function Challange3() {
+function App() {
 return (
  <div>
      <Header />
@@ -21,5 +21,5 @@ return (
 }
 
 ReactDOM.render(
-<Challange3 />, document.getElementById("root")
+<App />, document.getElementById("root")
 )
