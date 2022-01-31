@@ -1,12 +1,15 @@
 body {
     background-color: gray;
+    margin: 0;
 }
 
 
 header {
     background-color: rgb(49, 56, 146);
-    margin: 4px;
-    width: 800px;
+    margin-bottom: 25px;
+    padding: 25px 0;
+    color: blanchedalmond;
+    text-align: center;
 }
 h1 {
     color: rgb(90, 84, 4);
@@ -18,8 +21,9 @@ main {
     padding: 2px;
     border: rgb(95, 7, 51) solid 5px;
     border-bottom-style: ridge;
-    margin: 7px;
     width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .para {

@@ -1,0 +1,47 @@
+.container {
+    display: grid;
+    grid-template: repeat(2, 50px) / repeat(3, 1fr);
+    grid-gap: 20;
+}
+
+.one {
+    color: rgb(21, 112, 116);
+    background-color: chocolate;
+    text-align: center;
+    font-size: 40px;
+}
+
+.two {
+    text-align: center;
+    color: chocolate;
+    background-color: rgb(17, 55, 105);
+    font-size: 40px;
+}
+
+.three {
+    font-size: 40px;
+    text-align: center;
+    color: rgb(57, 57, 87);
+    background-color: rgb(164, 202, 27);
+}
+
+.four {
+    font-size: 40px;
+    text-align: center;
+    color: rgb(116, 111, 71);
+    background-color: rgb(235, 184, 17);
+}
+
+.five {
+    font-size: 40px;
+    text-align: center;
+    color: rgb(16, 53, 90);
+    background-color: deeppink;
+}
+
+.six {
+    font-size: 40px;
+    text-align: center;
+    color: darkolivegreen;
+    background-color: rgb(74, 24, 87);
+}
