@@ -1,0 +1,42 @@
+html, body {
+    box-sizing: border-box;
+    height: 100%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.container > div {
+    display: flex;
+    align-items: center;
+}
+
+
+.container {
+    box-sizing: content-box;
+    border: 4px;
+    border-style: ridge;
+    border-color: rgb(57, 235, 241) rgb(202, 63, 63);
+    height: 700px; 
+    width: 400px;
+    display: grid;
+    background-color: #0e0002;
+    padding: 0 40px;
+    grid-template-rows: 200px 250px 130px;
+    align-content: space-around;
+}
+
+
+
+.container > div:nth-child(1n) {
+    color: rgb(192, 105, 141);
+    justify-self: center;
+    font-size: 22px;
+    text-align: start;
+}
+
+.container > div:nth-child(2n) {
+    font-size: 35px;
+    color: rgb(221, 213, 207);
+}
+
+
