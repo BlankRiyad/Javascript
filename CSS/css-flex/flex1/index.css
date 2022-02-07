@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    border: 5px solid rgb(194, 117, 16);
+    /* flex-direction: column;
+    justify-content: flex-end; 
+    height: 100%;
+    align-items: flex-start; */
+}
+
+/* .container > div {
+    flex: 1;
+}
+
+.logout {
+    margin-left: auto;
+    align-self: flex-start;
+    justify-self: flex-start;
+}
+
+.home {
+    align-self:flex-end;
+}
+
+
+.search {
+    margin-right: auto;
+} */
